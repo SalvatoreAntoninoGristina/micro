@@ -13,7 +13,7 @@ Questo progetto è un'applicazione "pronta per la produzione" che dimostra compe
 L'obiettivo principale è costruire un servizio robusto ed efficiente che simuli un caso d'uso aziendale reale. Il focus è sulla **qualità del codice**, sulla **performance** (per cui Rust è ideale) e sulle **best practice DevOps**.
 
 Questo progetto dimostra competenza in:
-* **Backend Development:** Creazione di un'API RESTful sicura e veloce con **Rust** (usando `axum` / `actix-web`).
+* **Backend Development:** Creazione di un'API RESTful sicura e veloce con **Rust** (usando `axum`).
 * **Interazione con Database:** Utilizzo di `sqlx` per query asincrone e sicure (controllate a tempo di compilazione) verso **PostgreSQL**.
 * **Containerizzazione:** Creazione di immagini Docker ottimizzate (multi-stage) per uno small footprint e sicurezza.
 * **Infrastruttura come Codice (IaC):** Utilizzo di `docker-compose` per definire e avviare l'intero ambiente di sviluppo (API + Database) con un solo comando.
@@ -24,7 +24,7 @@ Questo progetto dimostra competenza in:
 ## 🛠️ Stack Tecnologico
 
 * **Linguaggio:** Rust (Stable)
-* **Web Framework:** `axum` (o `actix-web`)
+* **Web Framework:** `axum`
 * **Runtime Asincrono:** `tokio`
 * **Database:** PostgreSQL
 * **Driver Database:** `sqlx` (Async, Type-safe)
